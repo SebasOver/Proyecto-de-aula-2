@@ -5,4 +5,5 @@ def generar_grafico(x, y):
     plt.xlabel('Tiempo')
     plt.ylabel('Corriente')
     plt.title('Gráfico de Corriente en función del Tiempo')
+    plt.grid(True)
     plt.show()
